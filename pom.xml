@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.trilounge</groupId>
+  <artifactId>bittu</artifactId>
+  <version>0.0.1</version>
+  <name>Bittu</name>
+  <description>An efficient Discord Music Bot optimized for performance and quality.</description>
+  
+  <repositories>
+  	<repository>
+	    <id>dv8tion</id>
+	    <name>m2-dv8tion</name>
+	    <url>https://m2.dv8tion.net/releases</url>
+	</repository>
+	
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+  </repositories>
+  
+  <dependencies>
+	<dependency>
+	    <groupId>net.dv8tion</groupId>
+	    <artifactId>JDA</artifactId>
+	    <version>4.3.0_277</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.github.TeamNewPipe</groupId>
+	    <artifactId>NewPipeExtractor</artifactId>
+	    <version>v0.21.10</version>
+	</dependency>
+	<dependency>
+  		<groupId>com.squareup.okhttp3</groupId>
+  		<artifactId>okhttp</artifactId>
+  		<version>4.9.1</version>
+	</dependency>
+  </dependencies>
+</project>
